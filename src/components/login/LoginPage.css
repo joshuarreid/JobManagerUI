@@ -1,0 +1,26 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+
+html {
+    min-height: 100%;/* fill the screen height to allow vertical alignement */
+    display: grid; /* display:flex works too since body is the only grid cell */
+}
+
+body {
+    width: 15%;
+    height: 30%;
+    margin: auto;
+
+}
+
+label {
+    text-align:center;
+    line-height:200%;
+    font-size: large;
+}
+
+
+
+button {
+    margin-top: 10%;
+}
